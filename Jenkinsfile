@@ -17,7 +17,7 @@ pipeline{
 stage ('Stage two')
     {
     steps{
-        def echoer = load "./src/com/groovy/lab1/Assign6.groovy"
+        def echoer = load "./src/com/groovy/lab1/Category.groovy"
     }
     }
     }
