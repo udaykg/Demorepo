@@ -19,7 +19,7 @@ stage ('Stage two')
     steps{
     script{
         
-        def echoer = load "./src/com/groovy/lab1/Category.groovy"
+        def echoer = load "./src/com/groovy/lab1/LabAssignment2.groovy"
     }
 
         
