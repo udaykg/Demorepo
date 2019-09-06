@@ -1,3 +1,5 @@
 def echoIt(text){
-	echo $text
+	echo "Printing in echoer$text"
 }
+
+return this
