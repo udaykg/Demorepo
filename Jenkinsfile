@@ -17,7 +17,7 @@ pipeline{
 stage ('Stage two')
     {
     steps{
-        echo "S7_1500 IT"
+        def echoer = load "./src/com/groovy/lab1/Assign6.groovy"
     }
     }
     }
