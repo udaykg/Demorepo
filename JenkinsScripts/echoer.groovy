@@ -1,4 +1,4 @@
-def echoIt(text){
+def echoIT(text){
 	echo "Printing in echoer$text"
 }
 
